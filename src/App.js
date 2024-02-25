@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Navbar,Container } from 'react-bootstrap';
-import Register from './components/Register'
+import UserList from './components/UserList'
+
 
 const App=()=>{
   return (
@@ -14,7 +15,9 @@ const App=()=>{
           
       </Navbar>
   {/*<Counter/>*/}
-  <Register/>
+  {/*<Register/>*/}
+  <UserList/>
+  {/*<Register/>*/}
   </> 
   );
 }
